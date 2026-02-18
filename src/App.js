@@ -28,6 +28,7 @@ function App() {
         <div class="avatarBox"><Avatar2/></div>
       </div>
       <StarWarsTitle />
+      <p>Probamos a hacer un commit desde el usuario desarrollo nevado, usando github</p>
     </div>
   );
 }
