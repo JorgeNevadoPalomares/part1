@@ -1,6 +1,7 @@
 import './App.css';
 import Avatar from './Avatar';
 import Avatar2 from './Avatar2';
+import Contador from './Contador';
 import Mensaje from './Mensaje';
 import StarWarsTitle from './StarWars';
 
@@ -30,6 +31,10 @@ function App() {
       <StarWarsTitle />
       <p>Probamos a hacer un commit desde el usuario desarrollo nevado, usando github</p>
       <p>Probamos a hacer un commit desde Jorge Nevado, despues de hacer el fork con desarrollo nevado</p>
+      <div className="App">
+        <h2>Ejemplo de Contador</h2>
+        <Contador valor={0} incrementar={() => console.log("Incrementar")} decrementar={() => console.log("Decrementar")} />
+      </div>
     </div>
   );
 }
